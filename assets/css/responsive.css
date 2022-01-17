@@ -1,0 +1,168 @@
+
+/* PC */
+
+@media (min-width: 75em) {
+    .hide-on-pc{
+        display: none;
+    }
+
+    
+    
+}
+
+/* Mobie & Tablet */
+
+@media (max-width: 75em){
+    .hide-on-tablet-mobile{
+        display: none;
+    }
+
+    .remove-flex{
+        display: block;
+    }
+
+    .header{
+        height: var(--header-height-tablet);
+        background-color: #555555;
+    }
+
+    .header__logo{
+        left: 50%;
+        transform: translate(-50%, -93%);
+    }
+
+    .header__menu{
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .header__menu-options{
+        background-color: #555555;
+    }
+
+    .menu__options-wrap{
+        display: none;
+    }
+
+    .header__menu-options{
+        width: 308px;
+    }
+    
+    .slider__img{
+        height: 1200px;
+    }
+
+    .slider__search-wrap{
+        min-width: 370px;
+    }
+
+    .menu__options-travels-europe-contain-img{
+        width: 100%;
+    }
+
+    .menu__options-travels-europe{
+        padding: 30px;
+    }
+    
+    .contain__ad-title{
+        margin-bottom: 20px;
+    }
+
+    .contain__book-left{
+        padding: 30px;
+    }
+
+    .contain__book-right{
+        height: 393px;
+        padding: 30px;
+    }
+
+    .contain__book-countdown{
+        margin: 0;
+        padding: 0 8px 0;
+    }
+
+    .contain__tours{
+        margin-top: 114px
+    }
+    
+    .contain__tours-wrap{
+        margin-top: 26px
+    }
+
+    .pd-extra{
+        padding: 30px;
+    }
+
+    .footer__wrap{
+        padding: 80px 30px 31px;
+    }
+
+    .footer__send-wrap{
+        margin-top: 24px;
+    }
+
+    .footer__social-link{
+        margin-right: 44px;
+    }
+
+    .footer__social-link-img{
+        width: 36px;
+        height: 36px;
+    }
+
+    .contain__book-countdown-contain::after{
+        display: none;
+    }
+
+    .mg-0{
+        margin: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width:46.25em) and (max-width: 75em){
+    .hide-on-tablet{
+        display: none;
+    }
+
+    .slider__search-wrap{
+        min-width: 570px;
+    }
+}
+
+/* Mobie */
+@media (max-width: 46.1875em){
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .slider__contents{
+        margin-top: 65px;
+    }
+
+    .slider__title-text{
+        line-height: 7rem;
+    }
+    
+    .contain__book-countdown-contain::after{
+        display: none;
+    }
+
+    .contain__book-countdown{
+        padding: 0 4px 0;
+    }
+
+    .footer__under--last{
+        display: block;
+    }
+
+    .footer__social-link{
+        margin-right: 34px;
+    }
+
+    .slider__search-wrap{
+        min-width: 570px;
+    }
+
+}

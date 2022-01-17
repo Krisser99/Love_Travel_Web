@@ -1,0 +1,172 @@
+:root{
+    --header-height: 104px;
+    --header-height-tablet: 127px;
+    --text-white-color: #fff;
+    --text-navbar-color: #9a9a9a;
+    --header-navbar-hover-color: #f9f9f9;
+    --background-header-color: #fff;
+}
+
+
+* {
+    box-sizing: inherit;
+}
+
+
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* height */
+
+.h-full{
+    height: 100%;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes showImage {
+    from{
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Space */
+
+.space__height15{
+    display: block;
+    height: 15px;
+}
+
+.space__height25{
+    display: block;
+    height: 25px;
+}
+
+.space__height20{
+    display: block;
+    height: 20px;
+}
+
+.space__height30{
+    display: block;
+    height: 30px;
+}
+
+.space__height35{
+    display: block;
+    height: 35px;
+}
+
+.space__height55{
+    display: block;
+    height: 65px;
+}
+
+.space__height65{
+    display: block;
+    height: 65px;
+}
+
+/* Padding */
+
+.no-pd {
+    padding: 0;
+}
+
+.pd-extra{
+    padding: 15px;
+}
+.pd-footer{
+    padding: 35px 30px;
+}
+
+/* Margin */
+
+
+.mg-t64{
+    margin-top: 64px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: #000;
+    background-color: #fff;
+}
+  
+
+/* Text Underline */
+
+.underline {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #1bbc9b;
+    z-index: -9;
+}
+
+/* no after */
+
+.no-after::after{
+    display: none;
+}
+
+/* color background footer */
+
+.color-bgd--footer-content{
+    background-color: #fff;
+}
+
+.color-bgd--footer-lisence{
+    background-color: #14b9d5;
+}
+
+/* Flex Property */
+
+.align-items{
+    align-items: center;
+}
