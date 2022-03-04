@@ -164,5 +164,11 @@
     .slider__search-wrap{
         min-width: 570px;
     }
+    .envanto {
+        display: none;
+    }
+    .envanto-icon {
+        display: none;
+    }
 
 }
